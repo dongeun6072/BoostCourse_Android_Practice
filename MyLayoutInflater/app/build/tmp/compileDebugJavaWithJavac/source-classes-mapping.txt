@@ -1,0 +1,8 @@
+com/example/mylayoutinflater/BuildConfig.java
+ com.example.mylayoutinflater.BuildConfig
+com/example/mylayoutinflater/SubActivity.java
+ com.example.mylayoutinflater.SubActivity
+ com.example.mylayoutinflater.SubActivity$1
+com/example/mylayoutinflater/MainActivity.java
+ com.example.mylayoutinflater.MainActivity
+ com.example.mylayoutinflater.MainActivity$1
