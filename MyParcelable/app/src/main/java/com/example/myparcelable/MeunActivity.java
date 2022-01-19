@@ -38,7 +38,7 @@ public class MeunActivity extends AppCompatActivity {
 
             SimpleData data = (SimpleData) intent.getParcelableExtra("data");
             if(data != null){
-                Toast.makeText(getApplicationContext(),"전달받은 SimpleData :" + data.message,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"전달받은 SimpleData :" + data.message + data.number,Toast.LENGTH_LONG).show();
             }
         }
     }
