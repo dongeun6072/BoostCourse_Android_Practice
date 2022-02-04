@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        따라서 각각의 파라미터는 다음과 같이 전달된다.
+//        따라서 각각의 파라미터는 다음과 같이 전달된다. 생명주기?
 //        - onCreate()
 //        task.execute(String) → doInBackground(String)
 //        -doInBackground()
