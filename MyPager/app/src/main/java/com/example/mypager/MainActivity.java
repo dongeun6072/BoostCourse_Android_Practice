@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -81,5 +82,14 @@ public class MainActivity extends AppCompatActivity {
             return "페이지" + position;
         }
     }
+
+    public void onFragmentChange(int index) {
+        Log.d("TAG","Index : " + index);
+        if (index == 0) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, new Fragment4()).commit();
+        }
+    }
+
+
 
 }
